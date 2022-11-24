@@ -1,9 +1,10 @@
 body{  
     font-family: Calibri, Helvetica, sans-serif;  
-    background-color: pink;  
+    background-color: pink; 
+    background-image: url("C:\Users\hp\Desktop\JS-basics\images\img1.jpg"); 
   }  
   .container
   {
-    padding: 10px;
+    
     background-color: lightblue;
   }
