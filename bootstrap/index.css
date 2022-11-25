@@ -1,24 +1,42 @@
 body{  
-    font-family: 'Times New Roman', Times, serif;  
-   /* background-color: pink; */
-    background-image: url('./img3.jpg'); 
-    
-  }  
-  .container
-  {
-  background-color: lightblue;
-  }
-
- /* input[type=text], input[type=password], textarea {  
-    width: 50%;  
-    padding: 10px;  
-    margin: 5px 0 22px 0;  
-    display: inline-block;  
-    border: none;  
-    background: #f1f1f1;  
-  }  
-  input[type=text]:focus, input[type=password]:focus {  
-    background-color: aquamarine;  
-    outline: none;  
-  }  */
- 
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink; 
+  background-image: url('./img3.jpg'); 
+}  
+.container {  
+    padding: 25px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea{  
+  width: 25%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgb(250, 224, 176);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.register{  
+  background-color: #4CAF50;  
+  color: white;  
+  /*padding: 16px 20px;  */
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.register:hover {  
+  opacity: 1;  
+} 
