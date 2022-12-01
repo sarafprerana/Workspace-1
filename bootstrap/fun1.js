@@ -1,6 +1,6 @@
 
 const formDetails = document.getElementById("details");
-formDetails.addEventListener("submit", async (ev) => {
+formDetails.addEventListener("Submit", async (ev) => {
    ev.preventDefault();
    var fName = document.getElementById("fname").value;
    var lName = document.getElementById("lname").value;
@@ -14,4 +14,7 @@ formDetails.addEventListener("submit", async (ev) => {
    document.write("Hobbies="+h1);
    document.write("Gender="+male);
    document.write("Gender="+female);
+   
 })
+
+
