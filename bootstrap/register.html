@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid bg-light text-black display-3 "align="center">Pateya Technology</div>
+        <div class="container-fluid bg-light text-black display-3 "align="center">Patheya Technology</div>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
@@ -54,25 +54,27 @@
           </nav>
     </header>
     <br>
-    <div class ="container " id="details" >
+    
+    <div class ="container "  >
+      <form id="details">
      <!-- Text box-->
      <h3 class="col-6 text-uppercase bg-dark text-white text-center">Student registration form</h3>
      <div >
         <div class="row ">
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-            <label for="fname" id="details">First Name</label>
-              <input type="text"  class="form-control" id="fname" placeholder="Enter First Name" pattern=value="">
+            <label for="fname" >First Name</label>
+              <input type="text"  class="form-control" id="fname" placeholder="Enter First Name" value="">
               </div>
               <div class=" col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <label >Last Name</label>
-              <input type="text" class="form-control" id="lname"  placeholder="Enter Last Name">
+              <input type="text" class="form-control" id="lname"  placeholder="Enter Last Name" value="">
             </div>
             </div>
           <br>
         <!--Use Dropdown for city-->
         <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3" >
-        <select class="form-select" aria-label="Default select example"  value="city">
+        <select class="form-select" aria-label="Default select example" id="city" value="city">
           <option selected> City</option>
           <option value="1">Mumbai</option>
           <option value="2">Pune</option>
@@ -80,8 +82,8 @@
         </select>
         </div><br><br>
         <!--Use Dropdown for Courses-->
-        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3" id="course" >
-          <select class="form-select" aria-label="Default select example"  value="course">
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3"  >
+          <select class="form-select" aria-label="Default select example" id="course" value="course">
             <option selected> Course</option>
             <option value="1">MSC</option>
             <option value="2">BSC</option>
@@ -90,6 +92,22 @@
           </div>
           </div>
         <br>
+        <!--Use Calender-->
+        <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <label for="dob">Date of Birth</label>
+            <input type="Date"  class="form-control" id="dob" >
+        </div>
+        <!--State-->
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3" id="course" >
+          <select class="form-select" aria-label="Default select example"  value="course">
+            <option selected> State</option>
+            <option value="1">Maharashtra</option>
+            <option value="2">UK</option>
+            <option value="3"></option>
+          </select>
+          </div>
+          </div><br>
           <!-- Use Checkbox for hobbies-->
           <div class="row">
             <div class=" col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
@@ -109,17 +127,13 @@
                <label >FeMale</label>
             </div>
         </div><br>
-        <!--Use Calender-->
-        <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-          <label for="dob">Date of Birth</label>
-            <input type="Date"  class="form-control" id="dob" >
-        </div>
-        </div><br><br>
+        
+        
+        <br><br>
         <!--Use Buttons -->
           <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-             <input class="btn btn-primary" onclick="Submit()" type="submit" value="Submit">
+             <input class="btn btn-primary" onclick="Submit()" id="ilveAlertBtn" type="submit" value="Submit">
              <input class="btn btn-primary" onclick="Reset()" type="reset" value="Reset">
              </div>
           </div>
