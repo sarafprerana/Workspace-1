@@ -1,5 +1,5 @@
 
- const formDetails = document.getElementById("details");
+ /*const formDetails = document.getElementById("details");
  formDetails.addEventListener("submit", async (ev) => {
     ev.preventDefault();
     var fName = document.getElementById("fname").value;
@@ -7,8 +7,8 @@
     document.write("First Name=" + fName);
     document.write("Last Name=" + lName);
      
-    var date=document.getElementById('dob').value;
-    document.write("Date="+date);
+    var city=document.getElementById('ci').value;
+    document.write("city="+city);
    
  })
  /*const formDetails = document.getElementById("details");
@@ -41,3 +41,16 @@
 
   document.write("Last Name="+lName);
  })*/
+
+ function f1()
+ {
+ var a=document.getElementById('fname').value;
+ var b=document.getElementById('lname').value;
+  document.write("First Name="+a,"Last Name="+b);
+ }
+
+ 
+
+
+
+ 
