@@ -1,10 +1,10 @@
-const axios= require('axios');
+/*const axios= require('axios');
 const getTodos=()=>{
-//const url="http://jsonplaceholder.typicode.com/todos/185";
+const url="http://jsonplaceholder.typicode.com/todos";
 //const url="http://jsonplaceholder.typicode.com/users/5";
 //const url="http://universities.hipolabs.com/search?country=United+Kingdom/"
 //const url="http://jsonplaceholder.typicode.com/comments?postId=3"
-const url="https://dog.ceo/api/breeds/image/random"
+//const url="https://dog.ceo/api/breeds/image/random"
 console.log('making API call');
 return axios
 .get(url)
@@ -25,6 +25,7 @@ console.log(response.data);
 console.log("---------------Before making API call------------");
 getTodos();
 console.log("-------------After receiving API-------------")
+*/
 
 /*const products = [
     { name: 'apples', category: 'fruits' },
@@ -54,14 +55,14 @@ const groupByCategory = {
   });
   console.log(groupByCategory2); */
 
-
-//var list = [1.1 ,1.4, 2.1, 2.3];
+var _=require('lodash')
+var list = [1.1 ,1.4, 2.1, 2.3];
  
-//var result = _.groupBy(list, Math.floor);
-//console.log(result);
+var result = _.groupBy(list, Math.floor);
+console.log(result);
 
-// result = _.groupBy(['one', 'two', 'three'], 'length');
-// console.log(result);
+ result = _.groupBy(['one', 'two', 'three'], 'length');
+ console.log(result);
 
 
 
