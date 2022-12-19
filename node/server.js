@@ -105,52 +105,7 @@ function GetSortOrder(prop) {
 
 
 
-//  var _ = require('lodash');
-//  console.log("------------GroupeBy Technology------------")
-//  result = _.groupBy(['Java', 'ASP.NET', 'Sql server','C#','C#'], 'technology');
-//  console.log(result);
- 
 
-//  console.log("------------GroupeBy Empluyee Name------------")
-//  result = _.groupBy(['Ovi','Arohi','kanchan','gayatri','aarti'], 'length');
-//  console.log(result);
-
-
-
- //result = _.groupBy(['one', 'two', 'three'], 'length');
- //console.log(result);
-
- 
-// function myCallback({ quantity }) {
-//   return quantity > 5 ? "ok" : "restock";
-// }
-
-// const result2 = inventory.group(myCallback);
-
-
-// const employee = [
-//   { name: 'shrikant', technology: 'java',age:'28' },
-//   { name: 'prerana', technology: 'java',age:'27'},
-//   { name: 'ovi', technology: 'html' ,age:'6'},
-//   {name:'aarohi',technology:'css',age:'8'}
-// ];
-// const groupByCategory = {
-//   'fruits': [
-//     { name: 'apples', category: 'fruits' }, 
-//     { name: 'oranges', category: 'fruits' },
-//   ],
-//   'vegetables': [
-//     { name: 'potatoes', category: 'vegetables' }
-//   ]
-// };
-
-// const group = employee.reduce((group, employee) => {
-//   const { technology } = employee;
-//   group[technology] = group[technology] ?? [];
-//   group[technology].push(employee);
-//   return group;
-// }, {});
-// console.log(group);
 
 
 
